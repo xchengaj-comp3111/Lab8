@@ -13,6 +13,8 @@ public class Library {
         System.out.println("There are " + anotherArray.length + " chapters");
         System.out.println(java.util.Arrays.toString(anotherArray));
 
+        b.addChapters("new Ch");
+
         MobileComputer mc = new MobileComputer();
         for (int i = 0; i < 10; i++) {
             mc.work();
@@ -24,6 +26,7 @@ public class Library {
 
         c.charge(p);
         c.charge(m);
+
     }
 
     public boolean someLibraryMethod() {

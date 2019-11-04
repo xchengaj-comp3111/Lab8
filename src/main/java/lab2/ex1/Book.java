@@ -31,4 +31,13 @@ public class Book {
         return chapters;
     }
 
+    public void addChapters(String newChapter) {
+        String[] newChs = new String[chapters.length+1];
+        for (int i = 0; i < chapters.length; i++) {
+            newChs[i] = chapters[i];
+        }
+        newChs[chapters.length] = newChapter;
+        chapters = newChs;
+    }
+
 }
