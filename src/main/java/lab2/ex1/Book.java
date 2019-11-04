@@ -42,6 +42,7 @@ public class Book {
         }
         newChs[chapters.length] = newChapter;
         chapters = newChs;
+	System.out.println("Add succeeds");
     }
 
 }
