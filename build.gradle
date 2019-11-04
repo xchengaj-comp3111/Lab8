@@ -6,7 +6,7 @@ plugins {
 group 'xiaohe.cheng.comp3111'
 version '1.0-SNAPSHOT'
 
-sourceCompatibility = 1.8
+sourceCompatibility = 1.12
 
 repositories {
     jcenter()
