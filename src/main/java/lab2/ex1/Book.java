@@ -33,7 +33,7 @@ public class Book {
 
     /**!
      *
-     * @param newChapter
+     * @param newChapter the name of the new chapter
      */
     public void addChapters(String newChapter) {
         String[] newChs = new String[chapters.length+1];
